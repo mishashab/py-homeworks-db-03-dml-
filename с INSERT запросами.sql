@@ -17,37 +17,40 @@ insert into singers(singer_name)
 values ('Би-2');
 
 insert into singersgenres(singer_id, genre_id)
-values (1, 5)
+values (1, 5);
 
 insert into singers(singer_name)
 values ('КИНО');
 
 insert into singersgenres(singer_id, genre_id)
-values (2, 5)
+values (2, 5);
 
 insert into singers(singer_name)
 values ('Artik & Asti');
 
 insert into singersgenres(singer_id, genre_id)
-values (3, 1)
+values (3, 1);
+
+insert into singersgenres(singer_id, genre_id)
+values (3, 3);
 
 insert into singers(singer_name)
 values ('JONY');
 
 insert into singersgenres(singer_id, genre_id)
-values (4, 1)
+values (4, 1);
 
 insert into singers(singer_name)
 values ('Flo Rida');
 
 insert into singersgenres(singer_id, genre_id)
-values (5, 2)
+values (5, 2);
 
 insert into singers(singer_name)
 values ('Kanye West');
 
 insert into singersgenres(singer_id, genre_id)
-values (6, 2)
+values (6, 2);
 
 insert into singers(singer_name)
 values ('Баста');
@@ -86,25 +89,25 @@ insert into singersalbums (singer_id, album_id)
 values (2, 2);
 
 insert into albums (album_name, album_year_of_issue)
-values ('Миллениум X', '2021-06-23')
+values ('Миллениум X', '2021-06-23');
 
 insert into singersalbums (singer_id, album_id)
 values (3, 3);
 
 insert into albums (album_name, album_year_of_issue)
-values ('Небесные розы', '2020-08-23')
+values ('Небесные розы', '2020-08-23');
 
 insert into singersalbums (singer_id, album_id)
 values (4, 4);
 
 insert into albums (album_name, album_year_of_issue)
-values ('Good Feeling', '2011-08-29')
+values ('Good Feeling', '2011-08-29');
 
 insert into singersalbums (singer_id, album_id)
 values (5, 5);
 
 insert into albums (album_name, album_year_of_issue)
-values ('Dondа', '2021-08-29')
+values ('Dondа', '2021-08-29');
 
 insert into singersalbums (singer_id, album_id)
 values (6, 6);

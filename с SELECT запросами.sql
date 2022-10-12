@@ -13,11 +13,11 @@ where DATE_PART('year', collection_year::date) >= 2018 and
 DATE_PART('year', collection_year::date) <= 2020;
 
 select singer_name from singers
-where singer_name not like '% %'
+where singer_name not like '% %';
 
 select song_name from songs
 where song_name like '%My%' or song_name  like '%my%' 
-or song_name like '%Мой%' or song_name  like '%мой%'
+or song_name like '%Мой%' or song_name  like '%мой%';
 
 
 
